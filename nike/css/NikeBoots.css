@@ -1,0 +1,531 @@
+#rightTitle{
+                display: inline-block;
+                color: #898989;
+            }
+#H2{
+    font-size: 23px;
+    font-family: 'oswald', sans-serif;
+}
+
+#textSite{
+    font-size: 13px;
+    font-family: 'roboto', sans-serif;
+    line-height: 27px;
+}
+
+#greyTitle{
+    font-family: 'oswald', sans-serif;
+    font-size: 13px;
+    display: inline-block;
+    color: #898989;
+    letter-spacing: 1px;
+}
+    #rightTitle{
+                display: inline-block;
+                color: #898989;
+            }
+
+
+
+
+/*----------------------------------------------MENU-------------------------------------------------*/
+#menu{
+    padding-top: 20px;
+}
+
+    #leftB{
+        display: -webkit-inline-box;
+        float: left;
+        font-family: 'oswald', sans-serif;
+        display: inline-block;
+        padding-right: 30.9%;
+        padding-left: 20px;
+        font-size: 15px;
+    }
+        .logo{
+            padding-right: 20px;
+            display: inline-block;
+            float: left;
+        }
+        .menu{
+            display: inline-block;
+        }
+        li{
+            color: #898989; 
+        }
+            li span:hover{
+                border-bottom: solid;
+                border-bottom-color: #0089cf;
+                color:black;
+                padding-bottom: 25px;
+            }
+            .first{
+                padding-right: 20px;
+                padding-top: 19px;
+                display: inline-block;
+            }
+            .second{
+                padding-top: 19px;
+                display: inline-block;
+            }
+    #rightB{
+        font-family: 'oswald', sans-serif;
+        padding-top: 9px;
+        padding-right: 20px;
+        font-size: 15px;
+    }
+
+        .search{
+           display: inline-block;
+           width: 7%;
+           padding-right: 27px;
+        }
+             .imgS{
+                width: 26%;
+                padding-right: 10px; 
+            }
+            .liner:hover{
+                border-bottom: solid;
+                border-bottom-color: #0089cf;
+                padding-bottom: 25px; 
+            }
+        .cart{
+        display: inline-block;
+        width: 8%;
+        padding-right: 27px;
+        }
+             .imgC{
+                width: 24%;
+                padding-right: 10px; 
+            }
+                .number{
+                    padding-left: 4px;
+                    color: #0089cf;
+                }
+        .sign{
+        display: inline-block;
+        width: 7%;
+        }
+
+/*----------------------------------------------PAGE 1-------------------------------------------------*/
+.responsiveNike{
+    display:none;
+}
+
+
+.imgAirMax{
+    padding-left: 90px;
+    padding-top: 157px;
+    display: inline-block;
+}
+.buy{
+    height: 403px;
+    width: 261px;
+    display: inline-block;
+    float: right;
+    margin-right: 180px;
+    margin-top: 50px;
+    font-family: 'oswald', sans-serif;
+}
+    .heart:hover{
+        background-image:       url(img/heart2.png);
+    }
+    .brand{
+        padding-top: 43px;
+    }
+    .model{
+        font-size: 30px;
+        padding-top: 10px;
+    }
+    .price{
+        color: #0089cf;
+        padding-top: 10px;
+        font-size: 18px;
+    }
+
+    .detail{
+        padding-top: 20px;
+        font-size: 13px;
+    }
+        #color{
+            color: #0089cf;     
+        }
+    .imgAirMax2{
+        padding-right: 9px;
+        padding-top: 14px;
+    }
+    .size{
+       font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 11px;
+        color: #898989;
+        display: block;
+        padding-top: 15px;
+    }
+    #boxSize{
+        margin-right: 3px;
+        background-color: white;
+        }
+    #boxAdd{
+        border-color: black;
+    }
+    .boxSA{
+        border: 1px solid;
+        height: 50px;
+        width: 125px;
+        display: inline-block;
+        background-color: #333333;
+        border-color: #e3e3e3;
+        margin-top: 6px;
+    }
+
+        #letterSize{
+            font-size: 14px;
+            display: inline-block;
+            padding-top: 19px;
+            padding-left: 19px;
+            color:black;
+            font-family: 'oswald', sans-serif;
+        }
+        #arrow{
+            width: 12%;
+            display: inline-block;
+            padding-left: 45px;
+            font-family: 'oswald', sans-serif;
+        }
+        #add2Cart{
+            font-size: 14px;
+            display: inline-block;
+            padding-top: 19px;
+            padding-left: 27px;
+            color: white;
+            font-family: 'oswald', sans-serif;
+        }
+/*----------------------------------------------PAGE 2-------------------------------------------------*/
+#page2{
+    padding-top: 150px;
+}
+
+    .backgroundIMG{
+        position: absolute;
+    }
+        .backgroundIMG .backgroundShoes{
+            width: 100%;
+        }
+    .blocTextP2{
+        position:relative;
+        padding-top: 260px;
+        padding-left: 50px;
+    }
+        .text1{
+            padding-bottom: 23px;
+            color: white;
+        }
+        .textColor{
+            width: 30%;
+            color: white;
+        }
+/*----------------------------------------------PAGE 3-------------------------------------------------*/
+#page3{
+    padding-top: 439px;
+}
+    .backgroundIMG2{
+        position: absolute;
+    }
+        .backgroundIMG2 .backgroundShoes2{
+            width: 100%;
+        }
+    .blocTextP3,.buy2{
+        position:relative;
+    }
+    .blocTextP3{
+        height: 453px;
+        width: 372px;
+        margin-left: 50px;
+        margin-top: 106px;
+        display: inline-block;
+    }
+        .story{
+            padding-bottom: 9px;
+        }
+        .Title2{
+            padding-bottom: 28px;
+        }
+        .para1{
+            color: #898989; 
+        }
+        .benefit{
+            padding-top: 41px;
+        }
+        .bloc2TextP3{
+            padding-top: 30px;
+        }
+            #H3{
+                font-family: 'oswald', sans-serif;
+                padding-bottom: 8px;
+                font-size: 18px;
+            }
+            .insideBlocP{
+                font-family: 'roboto', sans-serif;
+                padding-bottom: 18px;
+                font-size: 11px;
+                color: #898989;
+            }
+
+    .buy2{
+        height: 430px;
+        width: 301px;
+        border: 4px solid;
+        display: inline-block;
+        float: right;
+        margin-top: 114px;
+        right: 40px;
+        background-color: white;
+        border-color: #e3e3e3;;
+    }
+    .Title3{
+        padding-top: 21px;
+        padding-left: 27px;
+        padding-bottom: 14px;
+    }
+    .para2{
+        padding-left: 27px;
+        padding-bottom: 18px;
+    }
+    .colorStyle{
+        padding-left: 27px;
+        font-family: 'oswald', sans-serif;
+        font-size: 13px;
+    }
+    .AirmaxTavas{
+        padding-left: 14px;
+        padding-top: 50px;
+
+    }
+    .stock{
+       display: inline-block;
+       font-family: 'oswald', sans-serif;
+       font-size: 11px;
+       padding-top: 50px;
+       padding-left: 20px;
+    }
+    .dollarP{
+        display: inline-block;
+        float: right;
+        font-family: 'oswald', sans-serif;
+        font-size: 16px;
+        padding-top: 50px;
+        padding-right: 21px;
+    }
+
+    .button{
+        padding-top: 11px;
+        padding-left: 14px;
+    }
+        .boxP3{
+            border: 1px solid;
+            height: 50px;
+            width: 125px;
+            margin-left: 5px;
+            display: inline-block;
+            float: left;
+            background-color: #333333;
+            border-color: #e3e3e3;
+        }
+/*----------------------------------------------PAGE 4-------------------------------------------------*/
+#page4{
+    margin-top: 83px;
+    margin-bottom: 190px;
+}
+    .endPage{
+        margin-left: 50px;
+    }
+        .social{
+            margin-top: 108px;
+            padding-bottom: 9px;
+        }
+        .hashtag{
+            padding-bottom: 43px;
+        }
+
+/*----------------------------------------------Swipper-------------------------------------------------*/
+.wrapperEnd{
+    position: relative;
+    height: 100%;
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper-container {
+        width: 100%;
+        height: 100%;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+
+
+
+/*----------------------------------------------responsive-------------------------------------------------*/
+
+
+@media screen and (max-width: 1200px){
+    
+    .menu{
+        display: none;
+    }
+    #leftB{
+        padding-right: 0px;
+    }
+        .logo{
+            width: 14%;
+            margin-left: 420px;
+            margin-right: 230px;
+        }
+    #rightTitle{
+        display:none;
+    }
+        .search{
+            padding-right: 0px;
+        }
+        .cart{
+            padding-right: 0px;
+        }
+        .sign{
+            padding-right: 0px;
+        }
+
+/*---------------BLOC1--------------*/
+.responsiveNike{
+    display: block;
+    text-align: center;
+    padding-top: 100px;
+}
+    .brand{
+        font-size: 23px;
+        font-family: 'oswald', sans-serif;   
+    }
+    .priceR{
+        color: #0089cf;
+        padding-top: 10px;
+        font-size: 18px;
+        font-family: 'oswald', sans-serif;
+        
+    } 
+    .modelR{
+        font-size: 30px;
+        padding-top: 10px;
+        font-family: 'oswald', sans-serif;
+    }
+    .buy .brand, .price, .model{
+        display: none;
+    }
+.imgAirMax{
+    padding-top: 50px;
+    padding-left: 200px;
+}
+.buy{
+    float: none;
+    margin-top: 0px;
+    margin-left: 289px;
+    margin-top: 20px;
+    height: 300px;
+    width: 400px;
+    }
+    .detail{
+        font-size: 20px;
+    }
+    .heart{
+        display: none;
+    }
+    .size{
+        display: none;
+    }
+    .imgAirMax2{
+        padding-left: 35px;
+        width: 35%;
+    }
+    .imgAirMax3{
+       width: 35%; 
+    }
+    .boxSA{
+        margin-top: 14px;
+        height: 70px;
+        width: 170px;
+    }
+    #letterSize{
+        font-size: 20px;
+        padding-top: 27px;
+        padding-left: 25px;
+    }
+    .box1{
+    display: inline-block;
+    vertical-align: middle;
+
+    }
+    #add2Cart {
+        font-size: 20px;
+        padding-top: 25px;
+    }
+
+
+
+
+
+
+/*---------------BLOC2---------------*/
+#page2{
+    padding-top: 0;
+}
+    .backgroundIMG .backgroundShoes{
+        padding-top: 0px;
+}
+    .textColor{
+        width: 50%;
+    }
+    .blocTextP2{
+        padding-top: 130px;
+    }
+
+
+/*---------------BLOC3---------------*/
+#page3{
+    padding-top: 212px;
+} 
+    .buy2{
+        display: none;
+    }
+
+
+
+
+
+
+
+
+
+}
+
+
+

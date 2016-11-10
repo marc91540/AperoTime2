@@ -1,0 +1,503 @@
+/*---------------CODE x------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------*/
+/*---------------BLOC1------------------------------*/
+/*--------------------------------------------------*/
+
+   
+#page1{
+  
+    /*background-image: url("img/palm-trees-1209185.jpg");
+    min-height: 100vh;
+    background-size: cover;*/
+}
+/*---------------SLIDER------------------------------*/
+.wrapperSwipper{
+    position: relative;
+    height: 100%;
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+}
+.swiper-container {
+        width: 100%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+.swiper-slide img{
+    width: 100%;
+    height: 718px;
+}
+
+
+
+/*---------------WRAPPER-MENU------------------------------*/
+.bloc1bis{
+    top: -5px;
+    z-index: 1;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.wrapperMenu{
+    height: 119px;
+    width: 775px;
+    margin-top: 18px;
+    display: inline-block;
+    background-image: url(../img/logo1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+        #menu{
+            display: inline-block;
+            float: left;
+            position: relative;
+        }
+            #menu li{
+                display: inline-block;
+                margin-top: 8.5%;
+                color:white;
+                font-family: helvetica;
+                font-weight: 600;
+                letter-spacing: 4px;
+                text-decoration: none;
+                padding-bottom: 10px;
+            }
+            .home{
+                margin-right: 68px;
+            }
+            .offres{
+                margin-right: 200px;
+            }
+            .contact{
+                padding-right: 38px;
+            }
+                .ar{
+                    text-decoration: none;
+                    color: white;
+                }
+
+
+li:last-child::after{
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    display: block;
+    width: 4em;
+    height: 5px;
+    border-bottom: 2px solid;
+    transition: all .5s ease;
+}
+
+li:hover ~ li:last-child::after,
+li:nth-child(1):hover ~ li:last-child::after{left:0;width:4em;}
+li:nth-child(2):hover ~ li:last-child::after{left:8.4em;width:8.9em;}
+ul li:last-child:hover::after{left:30.3em;width:6.4em;}
+
+        #sociaux{
+            display: inline-block;
+            margin-top: 43px;
+        }
+            .marginR{
+                margin-right: 20px;
+                height: 33px;
+                background-repeat: no-repeat;
+                width: 33px;
+                display: inline-block;
+            }
+            #img2{
+                background-image: url(../img/facebook-logo-button.png);    
+            }
+            #img1{
+                background-image: url(../img/twitter2.png);
+            }
+            #img3{
+                background-image: url(../img/instagram2.png);  
+                background-repeat: no-repeat;
+                height: 33px;
+                width: 33px;
+                display: inline-block;
+            }
+
+            #img2:hover{
+                background-image: url(../img/facebook.png);
+                width: 33px;
+                height: 33px;
+                background-repeat: no-repeat;
+            }
+            #img1:hover{
+                background-image: url(../img/twitter.png);
+                width: 33px;
+                height: 33px;
+                background-repeat: no-repeat;
+            }
+            #img3:hover{
+                background-image: url(../img/instagram.png);
+                width: 33px;
+                height: 33px;
+                background-repeat: no-repeat;
+            }
+
+/*---------------BLOC-TITLE-PAGE------------------------------*/
+.blocTitle1Page{
+    width: 427px;
+    height: 213px;
+    text-align: center;
+    margin: auto;
+    margin-top: 110px;
+    display: inline-block;
+    margin-left: 174px;
+    
+}
+    .blocTitle1Page h1{
+        font-family: Pacifico;
+        color: white;
+        font-size: 65px;
+        margin-bottom: 23px;
+    }
+    .livraison{
+        font-family: Pacifico;
+        color: white;
+        font-size: 34px;
+    }
+    .button{
+        text-decoration: none;
+        color: white;
+        font-family: Myriad Pro, sans-serif;
+        background-color: #FF3333;
+        padding: 18px 17px;
+        display: inline-block;
+        top: 18px;
+        vertical-align: middle;
+        transform: translateZ(0);
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+        backface-visibility: hidden;
+        position: relative;
+        transition-property: color;
+        transition-duration: 1s;
+    }
+
+    #button1 {
+        margin-top: 36px;
+    }
+
+    #button1:before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-image: url(../img/1234.png);
+        background-size: cover;
+        transform: scaleY(0);
+        transform-origin: 50%;
+        transition-property: transform;
+        transition-duration: 1s;
+        transition-timing-function: ease-out;
+    }
+    #button1:hover, #button1:focus, #button1:active {
+      color: white;
+    }
+    #button1:hover:before, #button1:focus:before, #button1:active:before {
+      -webkit-transform: scaleY(1);
+      transform: scaleY(1);
+    }
+/*--------------------------------------------------*/
+/*---------------BLOC2------------------------------*/
+/*--------------------------------------------------*/
+#page2{
+    height: 492px;
+    background-color: #f5f6f7;
+    overflow: hidden;
+}
+.blocInsideBloc2{
+    height: 295px;
+    width: 540px;
+    margin-top: 100px;
+    margin-left: 45px;
+    display: inline-block;
+}
+.redTitle{
+    margin-top: 17px;
+    font-size: 35px;
+    color: #ff3333;
+    font-family: 'Indie Flower', cursive;
+}
+.paragraphe{
+    font-family: 'Poiret One', cursive;
+    font-size: 15px;
+    margin: 48px 0px 48px;
+    line-height: 2;
+    color: black;
+    font-weight: bold;
+}
+
+.iphone1{
+    display: inline-block;
+    float: right;
+    margin-top: 80px;;
+    margin-right: 45px;
+}
+
+#button2:before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #f5f6f7;
+    opacity: 2;
+        border: solid 2px;
+        border-color: #ff3333;
+        background-size: cover;
+        transform: scaleY(0);
+        transform-origin: 50%;
+        transition-property: transform;
+        transition-duration: 1s;
+        transition-timing-function: ease-out;
+    }
+    #button2:hover, #button2:focus, #button2:active {
+      color: #ff3333;
+    }
+    #button2:hover:before, #button2:focus:before, #button2:active:before {
+      -webkit-transform: scaleY(1);
+      transform: scaleY(1);
+    }
+
+/*--------------------------------------------------*/
+/*---------------BLOC3------------------------------*/
+/*--------------------------------------------------*/
+#page3{
+    height: 556px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.blocInsideBloc3{
+    height: 330px;
+    width: 440px;
+    display: inline-block;
+    float: right;
+    margin-right: 50px;
+    margin-top: 113px;
+}
+.iphone2{
+    display: inline-block;
+    float: left;
+    margin-top: 122px;
+    margin-left: 45px;
+}
+
+/*--------------------------------------------------*/
+/*---------------BLOC4------------------------------*/
+/*--------------------------------------------------*/
+#page4{
+    height: 418px;
+    background-color: #f5f6f7;
+}
+
+    #page4 h3{
+        color: #ff3333;
+        font-family: 'Indie Flower', cursive;
+        font-size: 35px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align: center;
+        
+    }
+    .border:hover{
+        border-bottom: solid 2px;
+    }
+
+    .partner{
+        width: 100%;
+        display: inline-block;
+        float: right;
+        text-align: center;
+    }
+        .carref{
+            padding-right: 70px;
+        }
+        .liveApp{
+            padding-right: 70px; 
+        }
+
+        .partner img{
+            transform: rotateX(0deg);
+            transition:all 2s ease;
+        }
+
+        .partner img:hover{
+              transform: rotateX(360deg);
+        }
+
+/*--------------------------------------------------*/
+/*---------------BLOC5------------------------------*/
+/*--------------------------------------------------*/
+.container h3{
+    color:white;
+    position: absolute;
+    font-family: 'Indie Flower', cursive;
+    font-size: 35px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 580px;
+}
+ .container .border2:hover{
+    border-bottom: solid 2px;
+    color:white;
+    }
+
+/*--------------------------------------------------*/
+/*---------------BLOC6------------------------------*/
+/*--------------------------------------------------*/
+#page6{
+    height: 392px;
+    background-color: #f5f6f7;
+    overflow: hidden;
+}
+    .H3P{
+        text-align: -webkit-center;
+    }
+        .H3P h3{
+            font-family: 'Indie Flower', cursive;
+            font-size: 35px;
+            font-weight: bold;
+            margin-top: 50px;
+            display: inline-block;
+            color: #ff3333;
+            margin-bottom: 20px;
+            border-bottom: 2px solid transparent;
+            padding-bottom: 10px;
+        }
+
+        .H3P h3:hover{
+            border-bottom: 2px solid;
+        }
+        .H3P p{
+            width: 712px;
+            text-align: center;
+            font-family: 'Poiret One', cursive;
+            font-size: 15px;
+            line-height: 2;
+            margin-bottom: 50px;
+            color: black;
+        }
+    .blo1{
+         text-align: -webkit-center;
+    }
+
+        .blo{
+            display: inline-block;
+        }
+        #apple{
+            margin-right: 70px;
+        }
+            .blo #button3{
+                letter-spacing: 3px;
+            }
+            #apple .buttonInline{
+                display: inline;
+            }
+            #android .buttonInline{
+                display: inline;
+            }
+            #apple #button3:after{
+                content: ' ';
+                background-image: url(../img/fa-apple.png);
+                padding: 27px 25px 27px 25px;
+                background-color: #ff7d7c;
+                left: 127px;
+                top: 0px;
+                position: absolute;
+                background-size: 24px;
+                background-repeat: no-repeat;
+                background-position: center center;
+                z-index: -1;
+            }
+
+            #apple #button3:hover:after{
+                left: 177px;
+                transition: all .6s ease-in-out;      
+            }
+            #android #button3:after{
+                content: ' ';
+                background-image: url(../img/fa-android.png);
+                padding: 27px 25px 27px 25px;
+                background-color: #ff7d7c;
+                left: 113px;
+                top: 0px;
+                position: absolute;
+                background-size: 24px;
+                background-repeat: no-repeat;
+                background-position: center center;
+                z-index: -1;
+            }
+            #android #button3:hover:after{
+                left: 163px;
+                transition: all .6s ease-in-out;      
+            }
+
+
+/*--------------------------------------------------*/
+/*---------------footer------------------------------*/
+/*--------------------------------------------------*/
+#footer{
+max-width: 720px;
+display: block;
+margin: 0 auto;
+
+}
+    #footer .copyright{
+        font-size: 16px;
+        font-family: Helvetica Neue, sans-serif;
+        font-weight: 600;
+        display: inline-block;
+        float: left;
+        line-height: 100px;
+        margin-top: 10px;
+    } 
+    #footer .icon{
+        display: inline-block;
+        float: right;
+        margin: 10px 0px 10px 0px;
+    }
+

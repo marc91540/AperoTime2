@@ -1,0 +1,52 @@
+body{
+    max-height: 100%;
+    overflow: hidden;
+}
+    #pageP2{
+        background-image: url(../img/timesk.jpg);
+        height: 854px;
+        background-size: contain;
+        background-repeat:no-repeat;
+        overflow: hidden;
+        opacity: 0.85;
+    }
+
+        #pageP2 .bloc1bis{
+            top: -5px;
+            z-index: 1;
+            position: relative;
+            left: 69%;
+            transform: translateX(-50%);
+        }
+
+            .LeConcept{
+                width: 80%;
+                margin-left: 10%;
+                height: 100%;
+                margin-top: 15px;
+            }
+                .LBox{
+                    display: inline-block;
+                    float: left;
+                    width: 45%;
+                    margin-top: 80px;
+                }
+                    .redTitleP2{
+font-family: 'Indie Flower', cursive;
+                    }
+                    .LPara{
+                        color: white;
+                        font-family: 'Poiret One', cursive;
+                        font-size: 17px;
+                        line-height: 1.5;
+                        margin-top: 30px;
+                    }
+                    .LBox .button{
+                        padding: 18px 40px;
+                        margin-top: 40px;
+                        display: inline-block;
+                        float: right;
+                    }
+                .RBox{
+                    float: right;
+                }
