@@ -9,7 +9,7 @@
   "author": "marc souchet",
   "license": "ISC",
   "dependencies": {
-    "express": "~4.13.4"
+    "express": "~4.14.0"
   },
   "devDependencies": {}
 }
